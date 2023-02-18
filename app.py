@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.config.from_dotenv()
 
 # Cria o objeto ChatBot
-chatbot = ChatBot('Meu ChatBot')
+chatbot = ChatBot('Zork')
 
 # Treina o ChatBot com o corpus em português
 trainer = ChatterBotCorpusTrainer(chatbot)
