@@ -28,6 +28,6 @@ def get_response():
     bot_response = chatbot.get_response(user_input).text
     return {'response': bot_response}
 
-# Roda a aplicação Flask
+# Roda a aplicação Flask, porta com netstat
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=os.environ.get('PORT', 1234))
