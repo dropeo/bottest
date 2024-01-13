@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Carrega as configurações do arquivo .env
 app.config.from_dotenv()
 
-# Cria o objeto ChatBot
+# Cria o objeto ChatBot.
 chatbot = ChatBot('Zorkk')
 
 # Treina o ChatBot com o corpus em português
